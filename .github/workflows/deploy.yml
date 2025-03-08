@@ -23,6 +23,7 @@ jobs:
       - name: Deploy on GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          personal_token: ${{ secrets.DEPLOY_TOKEN }}
+          external_repository: stalinon/math-roadmap
           publish_branch: gh-pages
+          publish_dir: ./public
