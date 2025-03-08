@@ -3,6 +3,8 @@ languageCode = "ru"
 title = 'Math Roadmap'
 theme = "hugo-book"
 publishDir = "public"
+relativeURLs = true
+uglyURLs = false
 
 [markup]
   [markup.goldmark]
