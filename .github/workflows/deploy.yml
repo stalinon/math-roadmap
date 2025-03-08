@@ -61,5 +61,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
+          personal_token: ${{ secrets.DEPLOY_TOKEN }}
+          external_repository: stalinon/math-roadmap
           branch: gh-pages
           folder: ./public
