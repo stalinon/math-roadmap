@@ -1,0 +1,9 @@
+baseURL = "https://math-roadmap.stalinon.github.io/"
+languageCode = "ru"
+title = 'Math Roadmap'
+theme = "hugo-book"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
