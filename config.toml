@@ -1,4 +1,4 @@
-baseURL = "https://math-roadmap.stalinon.github.io/"
+baseURL = "https://stalinon.github.io/math-roadmap/"
 languageCode = "ru"
 title = 'Math Roadmap'
 theme = "hugo-book"
